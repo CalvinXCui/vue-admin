@@ -1,6 +1,7 @@
 
 # vue-admin
 vue+element+webpack搭建的一套后台管理系统
+数据的仿真采用的时mockjs
 
 **在线演示地址**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
 
