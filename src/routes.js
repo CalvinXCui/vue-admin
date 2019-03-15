@@ -39,11 +39,11 @@ let routes = [
     {
         path: '/',
         component: Home,
-        name: '导航二',
+        name: '事件管理',
         iconCls: 'fa fa-id-card-o',
         children: [
-            { path: '/page4', component: Page4, name: '页面4' },
-            { path: '/page5', component: Page5, name: '页面5' }
+            { path: '/page4', component: Page4, name: '累加事件' },
+            { path: '/page5', component: Page5, name: '加载事件' }
         ]
     },
     {
@@ -53,16 +53,16 @@ let routes = [
         iconCls: 'fa fa-address-card',
         leaf: true,//只有一个节点
         children: [
-            { path: '/page6', component: Page6, name: '导航三' }
+            { path: '/page6', component: Page6, name: '加载页面' }
         ]
     },
     {
         path: '/',
         component: Home,
-        name: 'Charts',
+        name: '图形',
         iconCls: 'fa fa-bar-chart',
         children: [
-            { path: '/echarts', component: echarts, name: 'echarts' }
+            { path: '/echarts', component: echarts, name: '图形可视化' }
         ]
     },
     {
