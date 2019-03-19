@@ -11,7 +11,6 @@
 				</el-form-item>
 			</el-form>
 		</el-col>
-
 		<!--列表-->
 		<template>
 			<el-table :data="users" highlight-current-row v-loading="loading" style="width: 100%;">
