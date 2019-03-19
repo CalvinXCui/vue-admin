@@ -22,7 +22,6 @@
 
 <script>
     import echarts from 'echarts'
-
     export default {
         data() {
             return {
@@ -40,7 +39,7 @@
                   title: { text: 'Column Chart' },
                   tooltip: {},
                   xAxis: {
-                      data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+                      data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子",'其它']
                   },
                   yAxis: {},
                   series: [{
@@ -138,6 +137,12 @@
                             type: 'line',
                             stack: '总量',
                             data: [820, 932, 901, 934, 1290, 1330, 1320]
+                        },
+                        {
+                            name: '其他',
+                            type: 'line',
+                            stack: '总量',
+                            data: [100, 182, 101, 132, 90, 230, 210]
                         }
                     ]
                 });
